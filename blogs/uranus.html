@@ -1,104 +1,107 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
-    <title>Page Not Found</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      background: rgb(52, 56, 60);
-      color: white;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nexus – Overview | Uranus</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href="../../unpkg.com/boxicons%402.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+</head>
 
-    h1 {
-      margin: 0;
-      font-size: 22px;
-      line-height: 24px;
-    }
-
-    .main {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      width: 100vw;
-    }
-
-    .card {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      width: 75%;
-      max-width: 364px;
-      padding: 24px;
-      background: white;
-      color: rgb(14, 30, 37);
-      border-radius: 8px;
-      box-shadow: 0 2px 4px 0 rgba(14, 30, 37, .16);
-    }
-
-    a {
-      margin: 0;
-      font-weight: 600;
-      line-height: 24px;
-      color: #054861;
-    }
-
-    a svg {
-      position: relative;
-      top: 2px;
-    }
-
-    a:hover,
-    a:focus {
-      text-decoration: none;
-    }
-
-    a:hover svg path{
-      fill: #007067;
-    }
-
-    p:last-of-type {
-      margin-bottom: 0;
-    }
-
-    </style>
-  </head>
-  <body>
-    <div class="main">
-      <div class="card">
-        <div class="header">
-          <h1>Page Not Found</h1>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container"><a href="../index-2.html" class="nav-logo"><img src="../assets/images/icon.png"
+                    class="nav-logo-img">Nexus</a>
+            <div class="planet-btn-container"><a href="planets.html" class="button--link button--flex"><i
+                        class="bx bx-left-arrow-alt button__icon"></i>Planets</a></div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="uranus section sectionon" id="uranus"></section>
+        <div class="section-center">
+            <p class="planets-description">Destination</p>
+            <h1 class="planets-heading">Uranus</h1>
         </div>
-        <div class="body">
-          <p>Looks like you've followed a broken link or entered a URL that doesn't exist on this site.</p>
-          <p>
-            <a id="back-link" href="/">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-                <path fill="#007067" d="M11.9998836,4.09370803 L8.55809517,7.43294953 C8.23531459,7.74611298 8.23531459,8.25388736 8.55809517,8.56693769 L12,11.9062921 L9.84187871,14 L4.24208544,8.56693751 C3.91930485,8.25388719 3.91930485,7.74611281 4.24208544,7.43294936 L9.84199531,2 L11.9998836,4.09370803 Z"/>
-              </svg>
-              Back to our site
-             </a>
-          </p>
-          <hr><p>If this is your site, and you weren't expecting a 404 for this path, please visit Netlify's <a href="https://answers.netlify.com/t/support-guide-i-ve-deployed-my-site-but-i-still-see-page-not-found/125?utm_source=404page&utm_campaign=community_tracking">"page not found" support guide</a> for troubleshooting tips.
-          </p>
+        <div class="planets-stats">
+            <div class="planets-stats-container">
+                <h3 class="stats-title">Avg. Temperature</h3><span class="stats-text">−320°F (−195°C)</span>
+            </div>
+            <div class="planets-stats-container">
+                <h3 class="stats-title">Moons</h3><span class="stats-text">27</span>
+            </div>
+            <div class="planets-stats-container">
+                <h3 class="stats-title">Hours in a day</h3><span class="stats-text">17hrs</span>
+            </div>
+            <div class="planets-stats-container">
+                <h3 class="stats-title">Est. travel time</h3><span class="stats-text">8.5 years</span>
+            </div>
         </div>
-      </div>
-    </div>
-    <script>
-      (function() {
-        if (document.referrer && document.location.host && document.referrer.match(new RegExp("^https?://" + document.location.host))) {
-          document.getElementById("back-link").setAttribute("href", document.referrer);
-        }
-      })();
-    </script>
-  </body>
+        <section class="explore section" id="explore">
+            <h2 class="section-title">Fun facts about Uranus</h2>
+            <div class="explore-container container">
+                <div class="explore-content">
+                    <p class="exp">─ Uranus atmosphere mostly made up of hydrogen (H2) and helium (He), with a small
+                        amount of methane (CH4). The methane gives it a blue-green tint.</p>
+                    <p class="exp">─ It also has faint rings. The inner rings are narrow and dark. The outer rings are
+                        brightly colored and easier to see.</p>
+                    <p class="exp">─ Unlike any other planet, it rotates on its side, and also rotates in the opposite
+                        direction as most other planets.</p>
+                    <p class="exp">─ If you weigh 45 kg (100 pounds) on Earth, you would weigh 41 kg (91 pounds) on
+                        Uranus.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-content grid">
+                <div class="footer-data">
+                    <h3 href="#home" class="nav-logo"><img src="../assets/images/icon.png" class="nav-logo-img">Nexus
+                    </h3>
+                </div>
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Quick Links</h3>
+                    <ul>
+                        <li class="footer-item"><a href="../index-2.html" class="footer-link">Home</a></li>
+                        <li class="footer-item"><a href="planets.html" class="footer-link">Planets</a></li>
+                    </ul>
+                </div>
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Terrestrial Planets</h3>
+                    <ul>
+                        <li class="footer-item"><a href="mercury.html" class="footer-link">Mercury</a></li>
+                        <li class="footer-item"><a href="venus.html" class="footer-link">Venus</a></li>
+                        <li class="footer-item"><a href="earth.html" class="footer-link">Earth</a></li>
+                        <li class="footer-item"><a href="mars.html" class="footer-link">Mars</a></li>
+                    </ul>
+                </div>
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Jovian Planets</h3>
+                    <ul>
+                        <li class="footer-item"><a href="jupiter.html" class="footer-link">Jupiter</a></li>
+                        <li class="footer-item"><a href="saturn.html" class="footer-link">Saturn</a></li>
+                        <li class="footer-item"><a href="uranus.html" class="footer-link">Uranus</a></li>
+                        <li class="footer-item"><a href="neptune.html" class="footer-link">Neptune</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                <p class="footer-copy">&#169;&nbsp;2022&nbsp;<a href="https://github.com/boradesanket13" target="_blank"
+                        class="rights-link">Sanket Borade</a>&nbsp;|&nbsp;All rights reserved.</p>
+                <div class="footer-terms"><a href="#" class="footer-terms-link">Terms &#38; Agreements</a><a href="#"
+                        class="footer-terms-link">Privacy Policy</a><a href="#" class="footer-terms-link">FAQs</a></div>
+            </div>
+        </div>
+    </footer><a href="#" class="scrollup" id="scroll-up"><i class="bx bx-up-arrow-alt scrollup__icon"></i></a>
+    <script src="#"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
 </html>
